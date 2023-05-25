@@ -319,55 +319,59 @@
                             <p>120-240-9600</p>
                         </div>
                     </div>
-                    <div class="col-2 col-6">
-                        <form action="#">
-                            <div class="input wrapper">
-                                <div class="col-6 col-12">
-                                    <input type="text" name="name" id="name" placeholder="Name" class="form__control" required >
-                                    <label for="name">Name</label>
+                    <div class="col-6">
+                        <form action="#" class="form">
+                            <div class="wrapper">
+                                <div class="col-6 form__input">
+                                    <input type="text" name="name" id="name" class="form__input__control" placeholder="Name" required>
+                                    <label for="name" class="form__label">Name</label>
                                 </div>
-                                <div class="col-6 col-12">
-                                    <input type="email" name="email" id="email" placeholder="Email Address" class="form__control" required >
-                                    <label for="name">Email Address</label>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="fa-solid fa-globe"></i>
-                                        <span class="form-check-label-text">Websites</span>
-                                    </label>
-                                </div>
-                                <div>
-                                    <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="fa-solid fa-globe"></i>
-                                        <span class="form-check-label-text">Websites</span>
-                                    </label>
-                                </div>
-                                <div>
-                                    <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="fa-solid fa-globe"></i>
-                                        <span class="form-check-label-text">Websites</span>
-                                    </label>
-                                </div>
-                                <div>
-                                    <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="fa-solid fa-globe"></i>
-                                        <span class="form-check-label-text">Websites</span>
-                                    </label>
+                                <div class="col-6 form__input">
+                                    <input type="Email" name="email" id="email" class="form__input__control" placeholder="Email" required>
+                                    <label for="email" class="form__label">Email</label>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
-                                    
-                                    <label for="floatingTextarea">Tell me about the project</label>
+                            <div class="form__check__wrapper">
+                                <div class="wrapper">
+                                    <div class="form__check col-6">
+                                        <input type="checkbox" id="website" name="website" value="1" class="checkbox">
+                                        <label for="website" class="checkbox__label">
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>Website</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__check col-6">
+                                        <input type="checkbox" id="branding" name="branding" value="1" class="checkbox">
+                                        <label for="branding" class="checkbox__label">
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>Branding</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="wrapper">
+                                    <div class="form__check">
+                                        <input type="checkbox" id="ecommerce" name="ecommerce" value="1" class="checkbox">
+                                        <label for="ecommerce" class="checkbox__label">
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>Ecommerce</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__check">
+                                        <input type="checkbox" id="seo" name="seo" value="1" class="checkbox">
+                                        <label for="seo" class="checkbox__label">
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>SEO</span>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
+    
+                            <div class="form__input">
+                                <textarea class="form__input__control" id="message" name="message" placeholder="Tell me about the project" ></textarea>
+                                <label for="" class="form__label">Tell me about the project</label>
+                            </div>
+    
+                            <button type="submit" class="btn form__btn">Send</button>
                         </form>
                     </div>
                 </div>
@@ -376,7 +380,7 @@
 
     </main>
     <footer>
-        <section class="site__footer section__padding">
+        <section class="site__footer">
             <div class="container">
                 <div class="site__footer__text">
                     <p>Copyright &#169; 2036 First Portfolio Company. All rights reserved. <span>Design: <strong>TemplateMo</strong></span></p>
